@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore environment variables
+.env
+
+# Ignore files
+*__rough__*.*
+
+# Ignore directories
+.vscode/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+__rough__/
+
+raw/
