@@ -7,11 +7,14 @@ I am learning from CampusX [**YouTube Channel**][campusx-yt] and its paid course
 
 - Statistics
   - [Descriptive Statistics](./Descriptive%20Statistics/)
+  - [Analysis with Statistics](./Analysis%20with%20Statistics/)
 
 ## Resources
 
+- [Maths for ML and DL G-Drive](https://docs.google.com/spreadsheets/d/10spJMs0Zmv5cugfFjJVc4MudyOVjl_16Ef5z54oxqnM/edit#gid=241859416)
 - [Statistics For ML](./docs/Statistics%20For%20ML.pdf)
-- [Statistics Resources](./docs/Statistics%20Resources.pdf)
+- [Statistics Resources PDF](./docs/Statistics%20Resources.pdf)
+- [Statistics Resource G-Drive](https://docs.google.com/document/d/1GDKMZG5es9wkqk3ftiAXeUXKBc5fl0HlFIIKucPgRIs/edit)
 
 ## Acknowledgement
 
