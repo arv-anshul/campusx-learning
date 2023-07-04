@@ -8,6 +8,7 @@ I am learning from CampusX [**YouTube Channel**][campusx-yt] and its paid course
 - Statistics
   - [Descriptive Statistics](./Descriptive%20Statistics/)
   - [Analysis with Statistics](./Analysis%20with%20Statistics/)
+  - [Probability Distribution Functions](./Probability%20Distribution%20Functions/)
 
 ## Resources
 
