@@ -1,6 +1,22 @@
 from argparse import ArgumentParser
 from pathlib import Path
 
+readme_txt = """# {name}
+
+## Table of Contents
+
+0. [Resources](#resources)
+
+## Resources
+
+- [Video]()
+- [PDF](./docs/)
+- [Online PDF]()
+- [Session Notebook]()
+
+## Topics
+"""
+
 
 def create_folder_with_files(name):
     # Create the main folder
@@ -12,7 +28,9 @@ def create_folder_with_files(name):
         return print(e)
 
     # Create empty files
-    (folder_path / 'README.md').touch()
+    readme_fp = folder_path / 'README.md'
+    with open(readme_fp, 'w') as f:
+        f.write(readme_txt.format(name=name))
 
     # Create folders
     (folder_path / 'docs').mkdir(exist_ok=True)
@@ -30,3 +48,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     create_folder_with_files(args.name)
+
+    # DEMO
+    # $ python3 create_new_folder.py -n "Naive Bayes"
